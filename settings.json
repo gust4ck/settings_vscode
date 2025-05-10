@@ -1,41 +1,72 @@
-    {
-        "explorer.confirmDelete": false,
-        "explorer.confirmDragAndDrop": false,
-        "workbench.iconTheme": "symbols",
-        "editor.fontFamily": "'JetBrains Mono', 'Courier New', monospace",
-        "editor.fontSize": 14,
-        "editor.lineHeight": 1.8,
-        "editor.tabSize": 2,
-        "editor.renderWhitespace": "all",
-        "editor.minimap.enabled": false,
-        "editor.cursorStyle": "block",
-        "editor.cursorBlinking": "smooth",
-        "editor.wordWrap": "on",
-        "editor.formatOnSave": true,
-        "editor.smoothScrolling": true,
-        "editor.bracketPairColorization.enabled": true,
-        "editor.guides.bracketPairs": "active",
-        "editor.inlineSuggest.enabled": true,
-        "editor.linkedEditing": true,
-        "editor.cursorSurroundingLines": 5,
-        "editor.suggestSelection": "first",
-        "editor.fontLigatures": true,
-        "editor.unicodeHighlight.ambiguousCharacters": false,
-        "editor.selectionOnWordTrigger": false,
-        "workbench.statusBar.visible": false,
-        "window.titleBarStyle": "custom",
-        "window.commandCenter": false,
-        "window.zoomLevel": 1.9,
-        "terminal.integrated.fontSize": 14,
-        "terminal.integrated.fontFamily": "'JetBrains Mono', monospace",
-        "terminal.integrated.cursorStyle": "block",
-        "terminal.integrated.cursorBlinking": true,
-        "terminal.integrated.smoothScrolling": true,
-        "workbench.activityBar.location": "hidden",
-        "editor.selectionHighlight": false,
-        "workbench.editor.tabActionCloseVisibility": true,
-        "editor.wordBasedSuggestions": "off",
-        "explorer.compactFolders": false,
-        "security.workspace.trust.untrustedFiles": "open",
-        "workbench.editor.enablePreview": false
-    }
+{
+    // 🎨 Aparência e Tema
+    "workbench.colorTheme": "Tokyo Night",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 2,
+    "window.titleBarStyle": "custom",
+
+    // 🖋 Tipografia e Estética
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 22,
+    "terminal.integrated.fontFamily": "'JetBrains Mono', monospace",
+    "terminal.integrated.fontSize": 13,
+
+    // 🌬️ Suavidade e Movimento
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorWidth": 2,
+
+    // 👓 Interface Limpa
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderLineHighlight": "all",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.sideBar.location": "left",
+    "editor.codeLens": false,
+    "editor.hover.enabled": true,
+    "editor.hover.delay": 500,
+
+    // 🔧 UX Intuitiva
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+
+    // 🚫 Distrações e Popups
+    "breadcrumbs.enabled": false,
+    "explorer.confirmDelete": false,
+    "editor.lightbulb.enabled": "off",
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.openSideBySideDirection": "right",
+
+    // 🧪 Dev Extras
+    "terminal.integrated.scrollback": 10000,
+    "explorer.compactFolders": false,
+    "editor.wordWrap": "on",
+    "editor.renderControlCharacters": false,
+
+    // 🧼 Estilo para Terminais e LSP
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+
+    // ⚡ Performance e responsividade
+    "editor.fastScrollSensitivity": 2,
+    "editor.mouseWheelZoom": true,
+
+    // 🌀 Suavização do Scroll (Desabilitado)
+    "editor.smoothScrolling": false,
+    "workbench.list.smoothScrolling": false,
+    "editor.mouseWheelScrollSensitivity": 1,
+    "redhat.telemetry.enabled": true,
+    "editor.guides.indentation": false,
+    "explorer.confirmDragAndDrop": false
+  }
